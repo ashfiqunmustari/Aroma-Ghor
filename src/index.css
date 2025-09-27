@@ -55,6 +55,24 @@ button:focus,
 button:focus-visible {
   outline: 4px auto ring-0;
 }
+button-lora {
+  border-radius: 8px;
+  border: 0px solid #FEDCDB;
+  padding: 0.6em 1.2em;
+  font-size: 1.2em;
+  font-family: inherit;
+  font-weight:400;
+  background-color: #FEDCDB;
+  cursor:pointer;
+}
+button-lora:hover {
+  color: #e44b8d;
+  outline:none;
+}
+button-lora:focus,
+button-lora:focus-visible {
+  outline: 4px auto ring-0;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

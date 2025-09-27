@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Chanel Coco Mademoiselle",
+    "image": "../src/assets/image/product1.png",
+    "sizes": [
+      { "label": "5ml", "price": 1162 },
+      { "label": "10ml", "price": 2312 },
+      { "label": "20ml", "price": 4624 },
+      { "label": "100ml Full Size", "price": 23139 }
+    ],
+    "description": "Bright citrus opening with bergamot and orange leads into a floral heart of rose and jasmine. The base is warm with patchouli, vanilla, and musk. Best suited for elegant daytime occasions and formal gatherings."
+  },
+  {
+    "id": 2,
+    "name": "Dior J'adore",
+    "image": "../src/assets/image/product2.png",
+    "sizes": [
+      { "label": "5ml", "price": 856 },
+      { "label": "10ml", "price": 1712 },
+      { "label": "20ml", "price": 3424 },
+      { "label": "100ml Full Size", "price": 17119 }
+    ],
+    "description": "A luminous floral blend of pear, melon, freesia and magnolia with a heart of jasmine and rose, grounded by soft musk and vanilla. Ideal for romantic evenings, spring & summer wear."
+  },
+  {
+    "id": 3,
+    "name": "Yves Saint Laurent Black Opium",
+    "image": "../src/assets/image/product3.png",
+    "sizes": [
+      { "label": "5ml", "price": 823 },
+      { "label": "10ml", "price": 1646 },
+      { "label": "20ml", "price": 3292 },
+      { "label": "90ml Full Size", "price": 14790 }
+    ],
+    "description": "Edgy and bold — coffee, pink pepper, and orange blossom upfront; jasmine and almond in the heart; vanilla, patchouli and cedar in the base. Best for nighttime wear, colder seasons, and statement looks."
+  },
+  {
+    "id": 4,
+    "name": "Gucci Bloom",
+    "image": "../src/assets/image/product4.png",
+    "sizes": [
+      { "label": "5ml", "price": 208 },
+      { "label": "10ml", "price": 416 },
+      { "label": "20ml", "price": 832 },
+      { "label": "100ml Full Size", "price": 4165 }
+    ],
+    "description": "A lush floral garden: notes of jasmine, tuberose, and Rangoon Creeper combine to create a full-bodied white-floral scent. Perfect for spring, daytime wear, and garden events."
+  },
+  {
+    "id": 5,
+    "name": "Lancome La Vie Est Belle",
+    "image": "../src/assets/image/product5.png",
+    "sizes": [
+      { "label": "5ml", "price": 417 },
+      { "label": "10ml", "price": 833 },
+      { "label": "20ml", "price": 1666 },
+      { "label": "50ml Full Size", "price": 4165 }
+    ],
+    "description": "Sweet and luminous — iris, praline and black currant open the scent; jasmine and orange blossom in the heart; patchouli and vanilla base. Great for evening wear, date nights, and festive occasions."
+  },
+  {
+    "id": 6,
+    "name": "Marc Jacobs Daisy",
+    "image": "../src/assets/image/product6.png",
+    "sizes": [
+      { "label": "5ml", "price": 469 },
+      { "label": "10ml", "price": 938 },
+      { "label": "20ml", "price": 1878 },
+      { "label": "100ml Full Size", "price": 9392 }
+    ],
+    "description": "Fresh, youthful and playful — wild strawberry, violet leaves and ruby red grapefruit open; gardenia and violet heart; soft woods and musk base. Ideal for casual daytime wear and spring/summer outings."
+  },
+  {
+    "id": 7,
+    "name": "Tom Ford Black Orchid",
+    "image": "../src/assets/image/product7.png",
+    "sizes": [
+      { "label": "5ml", "price": 725 },
+      { "label": "10ml", "price": 1450 },
+      { "label": "20ml", "price": 2900 },
+      { "label": "100ml Full Size", "price": 14500 }
+    ],
+    "description": "Opulent, dark and mysterious — truffle, black currant and ylang-ylang open; orchid and dark florals in the heart; patchouli, incense, chocolate in the base. Best for evening, formal events, and colder weather."
+  },
+  {
+    "id": 8,
+    "name": "Viktor & Rolf Flowerbomb",
+    "image": "../src/assets/image/product8.png",
+    "sizes": [
+      { "label": "5ml", "price": 603 },
+      { "label": "10ml", "price": 1205 },
+      { "label": "20ml", "price": 2410 },
+      { "label": "100ml Full Size", "price": 12050 }
+    ],
+    "description": "Explosive floral bouquet — top notes of bergamot and tea; heart of jasmine, rose, orchid, freesia; base of patchouli and praline. Perfect for romantic occasions, evening wear, and date nights."
+  },
+  {
+    "id": 9,
+    "name": "Jo Malone Peony & Blush Suede",
+    "image": "../src/assets/image/product9.png",
+    "sizes": [
+      { "label": "5ml", "price": 610 },
+      { "label": "10ml", "price": 1220 },
+      { "label": "20ml", "price": 2440 },
+      { "label": "100ml Full Size", "price": 12200 }
+    ],
+    "description": "Delicate floral elegance — red apple top note, heart of peony, rose, jasmine and carnation; suede base. Best for day wear, spring-summer, and feminine looks."
+  },
+  {
+    "id": 10,
+    "name": "Jimmy Choo Fever",
+    "image": "../src/assets/image/product10.png",
+    "sizes": [
+      { "label": "5ml", "price": 575 },
+      { "label": "10ml", "price": 1150 },
+      { "label": "20ml", "price": 2300 },
+      { "label": "100ml Full Size", "price": 11500 }
+    ],
+    "description": "Fruity and warm — top notes of plum, litchi and grapefruit; heart of heliotrope, vanilla orchid, jasmine; base of tonka bean, vanilla, benzoin, coffee. Great for evening, night out, or autumn-winter wear."
+  }
+]

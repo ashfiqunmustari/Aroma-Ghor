@@ -2,7 +2,7 @@ import { BsCartCheck } from "react-icons/bs";
 const Navbar = () => {
     return (
         <div>
-            <nav className="bg-white shadow-sm px-4 py-2 flex items-center justify-between">
+            <nav className="bg-white shadow-sm px-20 py-5 flex items-center justify-between fixed top-0 left-0 w-full z-50">
                 {/* Left: Logo */}
                 <a
                     href="#"
@@ -14,7 +14,7 @@ const Navbar = () => {
                 </a>
                 <ul className="hidden lg:flex gap-6 text-gray-700">
                 <li>
-                    <a href="#" className="hover:text-gray-900">Item 1</a>
+                    <a href="#" className="hover:text-gray-900">About Us</a>
                 </li>
 
                 <li className="relative group">
@@ -30,7 +30,7 @@ const Navbar = () => {
                 </li>
 
                 <li>
-                    <a href="#" className="hover:text-gray-900">Item 3</a>
+                    <a href="#" className="hover:text-gray-900">Contact Us</a>
                 </li>
                 </ul>
 
