@@ -1,0 +1,22 @@
+.custom-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+
+}
+
+.custom-shape svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.5px);
+    height: 104px;
+    transform: rotate(180deg);
+}
+
+.custom-shape .shape-fill {
+    fill: #FEECEC;
+}

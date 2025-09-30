@@ -1,13 +1,13 @@
 import "./App.css";
 import Body from "./Components/Body";
-import Hero from "./Components/Hero";
+import Hero from "./Components/HeroSection/Hero";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 function App() {
   return (
     <>
       <Navbar />
-      <div className="pt-20">
+      <div>
         <Hero />
       </div>
       <Body></Body>

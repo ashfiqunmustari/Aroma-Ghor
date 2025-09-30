@@ -1,14 +1,15 @@
-import React, { use } from "react";
+import React from "react";
 import Collection from "./Collection";
 
-const Collections = ({ collectionsPromise }) => {
-  const perfumes = use(collectionsPromise);
-  console.log(perfumes);
+const Collections = ({perfumes, wishlist, handleWishlistButton}) => {
+  
   return (
     <div>
       <div className="grid grid-cols-2 gap-y-10">
         {perfumes.map((perfume) => (
-          <Collection perfume={perfume}></Collection>
+          <Collection perfume={perfume}
+          wishlist={wishlist}
+          handleWishlistButton={handleWishlistButton}></Collection>
         ))}
       </div>
     </div>
