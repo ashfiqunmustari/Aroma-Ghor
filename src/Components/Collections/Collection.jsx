@@ -3,7 +3,7 @@ import React from "react";
 import { CiHeart } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
 
-const Collection = ({perfume, wishlist, handleWishlistButton}) => {
+const Collection = ({perfume, wishlist, handleWishlistButton, handleCartButton}) => {
   const liked = wishlist.some((item) => item.id === perfume.id);
 
   const [selectedSize, setSelectedSize] = useState(perfume.sizes[3]);
@@ -55,10 +55,12 @@ const Collection = ({perfume, wishlist, handleWishlistButton}) => {
           {/*Price-Section--------------------------------------------------*/}
           <div className="flex items-center gap-2 mt-1">
             <span className="font-semibold">Price:</span>
-            <span>BDT {selectedSize.price}</span>{" "}
+            <span>BDT {selectedSize.price}/-</span>{" "}
           </div>
           <div className="card-actions">
-            <button className="btn">Add to Cart</button>
+            <button className="btn"
+            onClick={() => {handleCartButton(perfume, selectedSize); console.log(perfume)}}            
+            >Add to Cart</button>
           </div>
         </div>
       </div>

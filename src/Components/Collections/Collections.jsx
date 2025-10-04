@@ -1,7 +1,7 @@
 import React from "react";
 import Collection from "./Collection";
 
-const Collections = ({perfumes, wishlist, handleWishlistButton}) => {
+const Collections = ({perfumes, wishlist, handleWishlistButton, handleCartButton}) => {
   
   return (
     <div>
@@ -9,7 +9,8 @@ const Collections = ({perfumes, wishlist, handleWishlistButton}) => {
         {perfumes.map((perfume) => (
           <Collection perfume={perfume}
           wishlist={wishlist}
-          handleWishlistButton={handleWishlistButton}></Collection>
+          handleWishlistButton={handleWishlistButton}
+          handleCartButton={handleCartButton}></Collection>
         ))}
       </div>
     </div>

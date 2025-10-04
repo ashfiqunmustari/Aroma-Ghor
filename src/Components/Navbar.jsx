@@ -14,7 +14,7 @@ const Navbar = () => {
                 </a>
                 <ul className="hidden lg:flex gap-6 text-gray-700">
                 <li>
-                    <a href="#" className="hover:text-gray-900">About Us</a>
+                    <a href="#" className="hover:text-gray-900">Home</a>
                 </li>
 
                 <li className="relative group">

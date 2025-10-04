@@ -11,7 +11,7 @@ const Decants = () => {
       <h1 className="text-3xl md:text-3xl font-bold leading-snug">
         Small Bottle <br />
         Big Luxury</h1>
-        <h1 className="text-3xl md:text-3xl font-bold mb-6 text-pink-400">Low Price
+        <h1 className="text-3xl md:text-3xl font-bold mb-6 text-pink-400 blink">Low Price
       </h1>
       <table className="mx-auto border border-gray-300 rounded-md">
         <tbody>
